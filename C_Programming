@@ -27,3 +27,52 @@ int main(){
   return 0;
 }
 
+// find out the square area
+#include <stdio.h>
+int main(){ 
+  int a;
+  int square;
+  printf("Enter a value");
+  scanf("%d",&a);
+  square = (a*a);
+  printf("square = %d",square);
+  return 0;
+}
+
+//find the number in divisible
+#include <stdio.h>
+int main(){
+  int num;
+  printf("Enter a num");
+  scanf("%d",&num);
+  if(num%3==0){
+    printf("num is divisible");
+  }
+  else{
+    printf("num is not divisible");
+  }
+  return 0;
+}
+
+//find scholarship
+#include <stdio.h>
+int main(){
+  int gpa;
+  printf("enter gpa");
+  scanf("%d",&gpa);
+  if (gpa>=4){
+    printf("full scholarship");
+  }
+  else if (gpa>=3){
+    printf("half scholarship");
+}  
+  else {
+    printf("no scholarship");
+}
+    return 0;
+}
+
+
+
+
+
